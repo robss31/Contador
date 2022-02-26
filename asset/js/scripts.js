@@ -1,12 +1,12 @@
-var currentNumberWrapper = document.getElementById("currenteNumber")
-var currentNumber=0;
+var currentNumberWrapper = document.getElementById("currentNumber")
+var currentNumber = 0;
 
-function increment(){
-    currenteNumber = currentNumber + 1;
+function increment() {
+    currentNumber = currentNumber + 1;
     currentNumberWrapper.innerHTML = currentNumber;
 }
 
-function decrement(){
-    currenteNumber = currentNumber - 1;
+function decrement() {
+    currentNumber = currentNumber - 1;
     currentNumberWrapper.innerHTML = currentNumber;
 }
