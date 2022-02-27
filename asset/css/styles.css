@@ -36,4 +36,10 @@ button {
     
 }
 
+body p{
+    display: flex;
+    font-size: 19px;
+    color:rgb(165, 42, 42);
+    
+}
 
